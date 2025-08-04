@@ -13,6 +13,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.13.1+sha256.0f9ed48d808996ae007835fb5c4641cf9a300def2eddc9e957d9bbe4768c5f28",
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.0.13",
     "@typescript-eslint/eslint-plugin": "^8.36.0",
     "@typescript-eslint/parser": "^8.36.0",
@@ -20,13 +21,16 @@
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-import": "^2.32.0",
     "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@fastify/type-provider-typebox": "^5.1.0",
     "@sinclair/typebox": "^0.34.37",
+    "@supabase/supabase-js": "^2.50.5",
     "dotenv": "^17.2.0",
-    "fastify": "^5.4.0"
+    "fastify": "^5.4.0",
+    "jsonwebtoken": "^9.0.2"
   }
 }
